@@ -1,0 +1,79 @@
+Current Board:
+_ _ _
+_ _ _
+_ _ _
+Enter your row between 1 and 3
+1
+Enter your column between 1 and 3
+1
+x or o?
+x
+Your Play:
+x _ _
+_ _ _
+_ _ _
+============================
+Current Board:
+x _ _
+_ _ _
+_ _ _
+Enter your row between 1 and 3
+2
+Enter your column between 1 and 3
+1
+x or o?
+o
+Your Play:
+x _ _
+o _ _
+_ _ _
+============================
+Current Board:
+x _ _
+o _ _
+_ _ _
+Enter your row between 1 and 3
+2
+Enter your column between 1 and 3
+2
+x or o?
+x
+Your Play:
+x _ _
+o x _
+_ _ _
+============================
+Current Board:
+x _ _
+o x _
+_ _ _
+Enter your row between 1 and 3
+2
+Enter your column between 1 and 3
+3
+x or o?
+o
+Your Play:
+x _ _
+o x o
+_ _ _
+============================
+Current Board:
+x _ _
+o x o
+_ _ _
+Enter your row between 1 and 3
+3
+Enter your column between 1 and 3
+3
+x or o?
+x
+Your Play:
+x _ _
+o x o
+_ _ x
+============================
+Current Board:
+x _ _
+o x o
+_ _ x

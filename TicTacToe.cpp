@@ -20,6 +20,7 @@ void CreateBoard(auto board){
             board[i][j] = "_";
         }
     }
+}
 
 /*
     Display 3x3 matrix
@@ -31,6 +32,17 @@ void DisplayBoard(auto board){
             std::cout << board[i][j] << " ";}
         std::cout << std::endl;
     }
+}
+
+/*
+    Place marker for player in location
+    @param i (int) - row
+    @param j (int) - column
+    @param board (auto) - board being edited
+    @param marker (string) - player's marker
+*/
+void PlaceMarker(int i, int j, auto &board, std::string marker){
+    board[i][j] = marker;
 }
 
 int main(){

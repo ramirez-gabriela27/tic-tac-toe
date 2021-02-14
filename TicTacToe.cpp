@@ -11,6 +11,7 @@ Justin Murillo
 
 /*
     Create "empty" 3x3 matrix
+    @param board (auto) - board being populated as "empty"
 */
 void CreateBoard(auto board){
     //making a 3x3 board of "empty" spaces
@@ -21,8 +22,22 @@ void CreateBoard(auto board){
     }
 }
 
+/*
+    Display 3x3 matrix
+    @param board (auto) - board being displayed
+*/
+void DisplayBoard(auto board){
+    for (int i = 0; i < 3; i++){
+        for (int j = 0; j < 3; j++){
+            std::cout << board[i][j] << " ";
+        }
+        std::cout << std::endl;
+    }
+}
+
 int main(){
     std::string gameBoard[3][3];
     CreateBoard(gameBoard);
+    DisplayBoard(gameBoard);
     return 0;
 }

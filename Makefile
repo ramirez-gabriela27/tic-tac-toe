@@ -6,7 +6,7 @@ CXXGDB = -ggdb
 all: test
 
 clean:
-	rm test.exe #change before submitting 
+	rm test
 
 test: TicTacToe.cpp
 	$(CXX) $(CXXFLAGS) TicTacToe.cpp -o test

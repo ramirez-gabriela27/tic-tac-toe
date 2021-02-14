@@ -47,8 +47,13 @@ void PlaceMarker(int i, int j, auto &board, std::string marker){
     Get player choice - location on board
     @param row (int) - row of location - by reference
     @param column(int) - column of location - by reference
+}
 
-      
+/*
+    Get player choice - location on board
+    @param row (int) - row of location - by reference
+    @param column(int) - column of location - by reference
+*/
 void GetPlayerChoice(int &row, int &column) {
     std::cout << "Enter your row between 1 and 3" << std::endl;
     std::cin >> row;

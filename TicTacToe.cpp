@@ -21,8 +21,18 @@ void CreateBoard(auto board){
     }
 }
 
+void PrintBoard(auto gameBoard) {
+    for (int i = 0; i < 3; i++){
+        for (int j = 0; j < 3; j++){
+            std::cout << gameBoard[i][j] << " ";
+        }
+        std::cout << std::endl;
+    }
+}
+
 int main(){
     std::string gameBoard[3][3];
     CreateBoard(gameBoard);
+    PrintBoard(gameBoard);
     return 0;
 }

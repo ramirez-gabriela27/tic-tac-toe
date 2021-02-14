@@ -36,10 +36,19 @@ void DisplayBoard(auto board){
 }
 
 /*
+    Place marker for player in location
+    @param i (int) - row
+    @param j (int) - column
+    @param board (auto) - board being edited
+    @param marker (string) - player's marker
+*/
+void PlaceMarker(int i, int j, auto &board, std::string marker){
+    board[i][j] = marker;
     Get player choice - location on board
     @param row (int) - row of location - by reference
     @param column(int) - column of location - by reference
-*/
+
+      
 void GetPlayerChoice(int &row, int &column) {
     std::cout << "Enter your row between 1 and 3" << std::endl;
     std::cin >> row;

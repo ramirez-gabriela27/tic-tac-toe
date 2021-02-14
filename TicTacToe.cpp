@@ -44,9 +44,6 @@ void DisplayBoard(auto board){
 */
 void PlaceMarker(int i, int j, auto &board, std::string marker){
     board[i][j] = marker;
-    Get player choice - location on board
-    @param row (int) - row of location - by reference
-    @param column(int) - column of location - by reference
 }
 
 /*
